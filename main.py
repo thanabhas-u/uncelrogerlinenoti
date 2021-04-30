@@ -3,8 +3,11 @@ import pandas as pd
 import time
 from datetime import datetime
 
+
+# ให้ datetime จับว่าเป็นวันอะไร 0= วันจันทร์
 today = datetime.today().weekday()
 
+# เป็วันไหนก็โหลดตารางเรียนวันนั้น วันศุกร์ผมใส่else เลย เพราะยังไงวันอื่นก็ไม่มีเรียนแล้วครับ ขี้เกียจทำครบ 7 วัน
 if today == 0:
     df = pd.read_csv('time_table_mon.csv')
 elif today == 1:
