@@ -1,8 +1,8 @@
 import requests
 
-# Uncle Roger Notification Bot
+# Uncle Roger Notification 
 
-# Put your Line Noti Token here
+# ใส่ token line ตรงนี้ครับ
 token = 'YOUR_LINE_NOTI_TOKEN'
 
 
@@ -12,7 +12,6 @@ def create_headers(token):
 
 
 def send_noti(message, mood):
-    # Change Variable Names and Image Link as you like
     # เปลี่ยนตรงนี้ได้ตามใจเลยครับ ใช้รูปที่อยากใช้ ใช้ logic ที่อยากใช้
     fuiyoh = 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Nigel_Ng%2C_2020-11-14_A_%28crop%29.jpg'
     haiya = 'https://www.hitc.com/static/uploads/2020/07/Screenshot-2020-07-24-at-10.03.41-AM.png'
